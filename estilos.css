@@ -1,0 +1,38 @@
+* {
+    padding: 0;
+    margin: 0;
+    background-color: black;
+    color: #2fb156;
+}
+
+.header {
+    padding: 15px ;
+    border-bottom: 3px solid #32e9cd;
+
+}
+
+/* body{} para selecionar apenas uma parte do site e (* {}) para adicionar todo o site */
+
+.contaneir {
+    margin: 0 auto;
+    width: 80%;
+    display:flex  ;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h1 {
+    color: #2fb156;
+    font-weight: 500;
+}
+/*se nao tiver class ou id definida nao precisa de um (.)*/
+ul {
+    display: flex;
+    width: 350px;
+    justify-content: space-between;
+    list-style: none;
+
+}
+li {
+    color: rgb(196, 137, 10);
+}
